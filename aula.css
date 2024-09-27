@@ -1,0 +1,80 @@
+.Logo{
+    width: 20vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.barradepesquisa{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #eae7e7;
+    padding-left: 10px;
+}
+.barradepesquisa::placeholder{
+    padding-left: 10px;
+    color: gray;
+
+}
+.search{
+    width: 40vw;
+}
+#searchIcon{
+    margin-left: -2vw;
+    color: black;
+
+}
+
+.redirection {
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+}
+
+.links {
+    width: 20vw;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+
+}
+.links button{
+    margin-left: 2vw;
+    height: 5vh;
+    width: 6vw;
+    border-radius: 5px;
+    color: white;
+    background-color: #c92071;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(red, green, blue);  
+}
+
+#carinho {
+    color: #c92071;
+    font-size: 25px;
+    margin-left: -2vw;
+
+}
+
+.Menu {
+    width: 50vw;
+}
